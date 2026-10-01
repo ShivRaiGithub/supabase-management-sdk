@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+* { box-sizing: border-box; }
+body { margin: 0; }
+label { display: grid; gap: .45rem; font-size: .82rem; font-weight: 600; color: #cbd5e1; }
+input, textarea { width: 100%; border: 1px solid #334155; border-radius: .5rem; background: #020617; color: #e2e8f0; padding: .7rem .8rem; font: inherit; }
+input[readonly] { color: #94a3b8; }
+textarea { min-height: 10rem; font-family: var(--font-geist-mono), monospace; }
+button { cursor: pointer; border: 1px solid #155e75; border-radius: .5rem; background: #083344; color: #cffafe; padding: .7rem 1rem; font-weight: 700; text-align: left; }
+button:hover { background: #164e63; }
+button:disabled { opacity: .6; cursor: wait; }
+h2 { margin: 0; font-size: 1.05rem; }
+.card { border: 1px solid #1e293b; border-radius: .8rem; background: #0f172a; padding: 1.25rem; }
+.muted { color: #94a3b8; font-size: .85rem; }
+.status { display: inline-flex; border-radius: 999px; background: #334155; padding: .5rem .7rem; font-size: .75rem; font-weight: 700; }
+.good { background: #14532d; color: #dcfce7; }
+.bad { background: #7f1d1d; color: #fee2e2; }
+.quick { min-height: 4.5rem; text-align: center; }
+.quick.active { border-color: #22d3ee; background: #164e63; }
+pre { margin-top: 1rem; max-height: 34rem; overflow: auto; border-radius: .5rem; background: #020617; padding: 1rem; color: #a5f3fc; font-size: .75rem; white-space: pre-wrap; }
